@@ -41,9 +41,11 @@ An untrained instance of ChatterBot starts off with no knowledge of how to commu
 This package can be installed from [~~PyPi~~](https://pypi.python.org/pypi/ChatterBot) by running:
 
 ```
-pip install https://github.com/RaSan147/ChatterBot_update/archive/refs/heads/master.zip 
-```
+pip install https://github.com/RaSan147/ChatterBot_update/archive/refs/heads/master.zip
 
+python -m spacy download en_core_web_sm
+```
+* The 2nd line will download the spacy language model.
 ## Basic Usage
 
 ```
